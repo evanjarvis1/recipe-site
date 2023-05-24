@@ -1,0 +1,26 @@
+div {
+    padding-bottom: 1%;
+    width: 100%;
+}
+
+h3 {
+    width: 50%;
+    margin-left: 25%;
+    font-size: x-large;
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+    color: var(--header-color);
+}
+
+.blue-btn {
+    height: 3em;
+    width: 10em;
+    background-color: var(--social-color);
+}
+
+.blue-btn:hover {
+    background-color: var(--header-color);
+}

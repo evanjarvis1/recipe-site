@@ -1,0 +1,45 @@
+header {
+    background-color: var(--header-color);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: 1.5em;
+    color: var(--header-text-color);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-left: 5%;
+}
+
+nav {
+    display: flex;
+    width: 20%;
+    margin-top: 15px;
+    margin-right: 5%;
+}
+
+
+
+button {
+    background-color: transparent;
+    border: none;
+    color: var(--header-text-color);
+    font-size: 0.8em;
+    white-space: nowrap;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:hover {
+    background-color: var(--header-button-highlight-color);
+    border-bottom:2px solid var(--header-button-underline-color);
+}
+
+img {
+    position: absolute;
+    top: 0%;
+    height: 60px;
+}

@@ -1,0 +1,14 @@
+
+.displayed-recipes {
+    position: relative;
+    left: 25%;
+    margin-top: 5%;
+    align-items: center;
+
+    width: 1200px;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
